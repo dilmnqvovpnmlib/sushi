@@ -1,12 +1,9 @@
 import subprocess
-import sys
 import time
 import csv
 from string import digits
 
 import pyautogui
-import pyocr
-import pyocr.builders
 from PIL import Image
 
 
