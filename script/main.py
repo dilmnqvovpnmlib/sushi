@@ -68,6 +68,8 @@ class SushiLog():
                 value = int(value.replace(',', '').replace(' ', ''))
             elif name == 'course':
                 value = int(value.replace('.', ''))
+            elif name == 'mis':
+                value = int(value.replace('.', ''))
             # キレイに値が抽出出来ているかのデバッグ
             print(value)
             self.result.append(value)
