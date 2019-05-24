@@ -65,7 +65,7 @@ class SushiLog():
             # もとの値のデバッグ
             print(value)
             if name == 'amount' or name == 'profit':
-                value = int(value.replace(',', '').replace(' ', ''))
+                value = int(value.replace('.', '').replace(',', '').replace(' ', ''))
             elif name == 'course':
                 value = int(value.replace('.', ''))
             elif name == 'mis':
